@@ -1,5 +1,5 @@
 import {AiFillGithub} from 'react-icons/ai';
-import {FaLinkedinIn, FaInstagram} from 'react-icons/fa';
+import {FaLinkedinIn, FaInstagram, FaYoutube, FaTiktok} from 'react-icons/fa';
 import {FiTwitter} from 'react-icons/fi';
 import img from '../assets/beccahenry.jpg';
 import AOS from 'aos';
@@ -24,6 +24,9 @@ const Banner = () => {
                             <a href="https://www.github.com/CoutureAndCode" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                                 <AiFillGithub className="text-[28px]"/>
                             </a>
+                            <a href="https://www.YouTube.com/@CoutureAndCode" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                                <FaYoutube className="text-[28px]"/>
+                            </a>
                             <a href="https://www.linkedin.com/in/CoutureAndCode" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                                 <FaLinkedinIn className="text-[28px]"/>
                             </a>
@@ -32,6 +35,9 @@ const Banner = () => {
                             </a>
                             <a href="https://www.Instagram.com/CoutureAndCodeOrg" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                                 <FaInstagram className="text-[28px]"/>
+                            </a>
+                            <a href="https://www.TikTok.com/@coutureandcode" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                                <FaTiktok className="text-[28px]"/>
                             </a>
                         </div>
                     </div>

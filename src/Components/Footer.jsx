@@ -1,4 +1,4 @@
-import {FaGithub, FaInstagram, FaLinkedinIn, FaTwitter} from "react-icons/fa";
+import {FaGithub, FaInstagram, FaLinkedinIn, FaTiktok, FaTwitter} from "react-icons/fa";
 const Footer = () => {
     return (
        <footer className="bg-slate-800 text-white lg:px-48 px-4 py-20">
@@ -35,6 +35,9 @@ const Footer = () => {
                 </a>
                 <a className="text-white hover:text-fuchsia-800  transition-all duration-150 ease-in-out" href="https://www.Instagram.com/CoutureAndCodeOrg">
                     <FaInstagram/>
+                </a>
+                <a className="text-white hover:text-fuchsia-800  transition-all duration-150 ease-in-out" href="https://www.TikTok.com/@CoutureAndCode">
+                    <FaTiktok/>
                 </a>
             </div>
            </div>
